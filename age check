@@ -1,0 +1,6 @@
+import datetime
+now = datetime.datetime.now()
+name = input("Hey,what's your name?")
+age = int(input("okay, how old are you?"))
+yrs = (now.year +100) - age
+print("Okay, so if you're", age, "now, then you should turn 100 in the year", yrs)
